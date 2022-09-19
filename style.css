@@ -1,0 +1,131 @@
+.ejemplo{
+  background-color: grey;
+}
+
+.hero-section {
+  background: url('../img/fotoinicio.jpg') 50% no-repeat;
+
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+   justify-content: center;
+}
+#footer{
+  font-size: small;
+  background-color: black;
+  color: white;
+
+}
+#footer a{
+  color: white
+}
+
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.fondo{
+  background-color: #000;
+}
+.fondo a{
+  color: #fff;
+}
+.fondo a:hover{
+  color: #f2ac3d
+}
+.ajuste{
+  margin-top: 100px;
+}
+.margen{
+  margin-top: 100px
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste{
+    margin-top: 15px;
+    font-size: small;
+  }
+}
+.fondodos{
+  background: url('../img/gerard2.jpg')fixed;
+  padding: 100px 0;
+}
+#accion{
+  color: white
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .margen{
+    margin-top: 25px
+
+  }
+  .fondodos{
+    padding: 30px 0;
+  }
+
+}
+
+
+/* Hero */
+
+.hero-section {
+  background: url("../img/fotoinicio.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .hero-section {
+    height: 30vh;
+  }
+
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+/*Termina Hero*/
+/*Portafolio*/
+
+.filter-simple .button-group {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
+  background-color: #1779ba;
+  color: #fefefe;
+}
+
+.button-group.round :first-child {
+  border-radius: 5000px 0 0 5000px;
+}
+
+.button-group.round :last-child {
+  border-radius: 0 5000px 5000px 0;
+}
+
+.column-block {
+  margin-bottom: 30px;
+}
